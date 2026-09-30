@@ -1,7 +1,7 @@
 import Link from "next/link";
 
 const items = [
-  { href: "/marketplace", label: "Tsena" },
+  { href: "/protected/marketplace", label: "Tsena" },
   { href: "/video", label: "Réseau Video" },
   { href: "/chat", label: "Communauté" },
   { href: "/vaksiny", label: "Vaksiny" },

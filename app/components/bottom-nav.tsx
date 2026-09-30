@@ -4,7 +4,7 @@ import { usePathname } from "next/navigation";
 import { Home, Beef, Sprout, Calculator, Bot } from "lucide-react";
 
 const tabs = [
-  { href: "/", label: "Accueil", icon: Home },
+  { href: "/protected/home", label: "Accueil", icon: Home },
   { href: "/fiompiana", label: "Fiompiana", icon: Beef },
   { href: "/fambolena", label: "Fambolena", icon: Sprout },
   { href: "/kajy", label: "Kajy", icon: Calculator },
